@@ -1,6 +1,6 @@
 #result {
   display: none;
-
+  margin-top: 10px;
 }
 .lang {
   font-weight: bold;
@@ -12,7 +12,7 @@
   margin: auto;
   align:middle;
   font-weight: bolder;
-  font-size: 40
+  font-size: 40;
 }
 .name {
   text-transform: capitalize;
@@ -25,8 +25,11 @@ select {
   /* padding-right: 10px; */
 }
 #formsbox {
-  padding: 10px
+  padding: 10px;
 }
 label {
-  margin-top: 15px
+  margin-top: 15px;
+}
+.bottomArea {
+  margin-bottom: 150px;
 }
