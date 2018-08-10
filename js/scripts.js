@@ -1,10 +1,5 @@
 $(document).ready(function() {
   // var name = $("#name")
-  var likes = $("#likes").val();
-  var where = $("#where").val();
-  var movies = $("#movies").val();
-  var runner = $("#runner").val();
-  var vintage = $("#vintage").val();
   var i = 0
   var resultdata = []
   var ruby = 0
@@ -13,6 +8,12 @@ $(document).ready(function() {
   // var lang = ""
 
   $("#submit").click(function(event){
+    var name = $("#name").val();
+    var likes = $("#likes").val();
+    var where = $("#where").val();
+    var movies = $("#movies").val();
+    var runner = $("#runner").val();
+    var vintage = $("#vintage").val();
     if (likes == "" || where == "" || movies =="" || runner == "" || vintage ==""){
       alert ("please answer all questions");
     } else if (react == 0 && ruby == 0 && cSharp == 0) {
@@ -39,13 +40,15 @@ $(document).ready(function() {
       } else if(Math.max(ruby, react, cSharp) == cSharp){
         lang = "C#"
       }
-
     }
-
+    if(name !=""){
+      name = ", " + name 
+    }
     $(".lang").text(lang);
-        $("#result").show();
+    $(".name").text(name);
+    $("#result").show();
 
-        event.preventDefault();
+    event.preventDefault();
     console.log(react);
     console.log(ruby);
     console.log(cSharp);
