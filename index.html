@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <meta charset="utf-8">
-    <title>What kind of corporate stooge will you be?</title>
-  </head>
-  <body>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>What kind of corporate stooge will you be?</title>
+</head>
+<body>
+  <div class="container">
     <div id="forms">
-
-    <select class="form-control" id="whatLike">
-  <option>creating good looking websites that people will see every day</option>
-  <option>creating exciting and dynamic content for end users</option>
-  <option>solving interesting and difficult problems</option>
-</select>
-<select class="form-control" id="wherework">
-  <option>a megacorp, you want to be in with the big boys</option>
-  <option>a smaller tech company where you are part of the team</option>
-  <option>oh just wherever, you know...</option>
-</select>
-<select class="form-control" id="movies">
-  <option>hackers</option>
-  <option>johnny mnemonic</option>
-  <option>lawnmower man</option>
-</select>
-<select class="form-control" id="runner">
-  <option>street samurai</option>
-  <option>decker</option>
-  <option>mage</option>
-</select>
-<select class="form-control" id="beverage">
-  <option>pre eternal september</option>
-  <option>pre mobile era</option>
-  <option>mobile era</option>
-</select>
-</div>
+      <label for="likes">what interests you about programming? </label>
+      <select class="form-control" id="likes">
+        <option value=""> --pick one-- </option>
+        <option val ="a">creating good looking websites that people will see every day</option>
+        <option val ="b">creating exciting and dynamic content for end users</option>
+        <option val ="c">solving interesting and difficult problems</option>
+      </select>
+      <label for="where">where would you like to work? </label>
+      <select class="form-control" id="where">
+        <option value=""> --pick one-- </option>
+        <option val ="c">a megacorp, you want to be in with the big boys</option>
+        <option val ="b">a smaller tech company where you are part of the team</option>
+        <option val ="a">oh just wherever, you know...</option>
+      </select>
+      <label for="movies">which of these movies do you like most?</label>
+      <select class="form-control" id="movies">
+        <option value=""> --pick one-- </option>
+        <option val ="b">hackers</option>
+        <option val ="c">johnny mnemonic</option>
+        <option val ="a">the matrix</option>
+      </select>
+      <label for="runner">you are invited to a shadowrun game, these positions in the running team are unfilled, which do you choose to fill?</label>
+      <select class="form-control" id="runner">
+        <option value=""> --pick one-- </option>
+        <option val ="a">street samurai</option>
+        <option val ="c">decker</option>
+        <option val ="b">mage</option>
+      </select>
+      <label for="vintage">when did you first start actively using the internet?</label>
+      <select class="form-control" id="vintage">
+        <option value=""> --pick one-- </option>
+        <option val ="c">pre eternal september</option>
+        <option val ="b">pre mobile era</option>
+        <option val ="a">mobile era</option>
+      </select>
+    </div>
+  </div>
 
 
 
