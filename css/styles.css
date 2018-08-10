@@ -4,6 +4,7 @@
 }
 .lang {
   font-weight: bold;
+  font-style:italic;
 }
 .btn {
   padding: 6px;
@@ -19,5 +20,13 @@
 #btnRow {
   align-items:center;
 }
-body {
+select {
+  margin: 4px;
+  /* padding-right: 10px; */
+}
+#formsbox {
+  padding: 10px
+}
+label {
+  margin-top: 15px
 }

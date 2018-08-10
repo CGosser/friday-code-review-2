@@ -42,7 +42,7 @@ $(document).ready(function() {
       }
     }
     if(name !=""){
-      name = ", " + name 
+      name = "hello, " + name + ", "
     }
     $(".lang").text(lang);
     $(".name").text(name);
