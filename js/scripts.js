@@ -12,7 +12,7 @@ $(document).ready(function() {
   var cSharp = 0
   // var lang = ""
 
-  $("#submit").click(function(){
+  $("#submit").click(function(event){
     if (likes == "" || where == "" || movies =="" || runner == "" || vintage ==""){
       alert ("please answer all questions");
     } else if (react == 0 && ruby == 0 && cSharp == 0) {
@@ -42,11 +42,14 @@ $(document).ready(function() {
 
     }
 
+    $(".lang").text(lang);
+        $("#result").show();
+
+        event.preventDefault();
     console.log(react);
     console.log(ruby);
     console.log(cSharp);
     console.log(resultdata);
     console.log(lang);
-
   });
 });
