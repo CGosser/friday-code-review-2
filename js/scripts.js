@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  // var name = $("#name")
   var i = 0
   var resultdata = []
   var ruby = 0
