@@ -1,12 +1,14 @@
 #result {
   display: none;
+
 }
 .lang {
   font-weight: bold;
 }
 .btn {
   padding: 4px;
-  margin: auto
+  width:100%
+  margin:auto;
 }
 .name {
   text-transform: capitalize;
