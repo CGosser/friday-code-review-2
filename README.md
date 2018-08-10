@@ -10,9 +10,9 @@ _{uses  the inputs from a number of multiple choice questions to determine which
 
 ## Setup/Installation Requirements
 
-* _click the gh-pages link here_
-* _go to the github repository linked here https://github.com/CGosser/friday-code-review-2_
-* _copy the link clone link which is https://github.com/CGosser/friday-code-review-2.git_
+* _click the gh-pages link here https://cgosser.github.io/friday-code-review-2 _
+* _go to the github repository linked here https://github.com/CGosser/friday-code-review-2 _
+* _copy the link clone link which is https://github.com/CGosser/friday-code-review-2.git _
 * _use the git clone command in the command line to clone the repository_
 * _open folder in command line and use atom or your web browser of choice to view the page_
 
