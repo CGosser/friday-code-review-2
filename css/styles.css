@@ -6,10 +6,18 @@
   font-weight: bold;
 }
 .btn {
-  padding: 4px;
+  padding: 6px;
   width:100%
-  margin:auto;
+  margin: auto;
+  align:middle;
+  font-weight: bolder;
+  font-size: 40
 }
 .name {
   text-transform: capitalize;
+}
+#btnRow {
+  align-items:center;
+}
+body {
 }

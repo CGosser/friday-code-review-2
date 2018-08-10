@@ -6,7 +6,7 @@
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
   <meta charset="utf-8">
-  <title>language should i learn?</title>
+  <title>which language should I learn?</title>
 </head>
 <body>
   <div class="container">
@@ -14,85 +14,89 @@
 
       <div class="row">
         <div class="col-xl-2">
-</div>
-<div class="col-xl-8">
-  <div class="panel panel-default">
+        </div>
+        <div class="col-xl-8">
+          <div class="panel panel-default">
+            <label for="name"></label>
+            <input id="name" class="form-control" type="text">
+            <!-- </div> -->
+            <!-- <div class="row"> -->
 
-        <label for="name"></label>
-        <input id="name" class="form-control" type="text">
-        <!-- </div> -->
-        <!-- <div class="row"> -->
+            <label for="likes">what interests you about programming? </label>
+            <select class="form-control" id="likes">
+              <option value=""> --pick one-- </option>
+              <option value ="a">creating good looking websites that people will see every day</option>
+              <option value ="b">creating exciting and dynamic content for end users</option>
+              <option value ="c">solving interesting and difficult problems</option>
+            </select>
+            <!-- </div> -->
+            <!-- <div class="row"> -->
 
-        <label for="likes">what interests you about programming? </label>
-        <select class="form-control" id="likes">
-          <option value=""> --pick one-- </option>
-          <option value ="a">creating good looking websites that people will see every day</option>
-          <option value ="b">creating exciting and dynamic content for end users</option>
-          <option value ="c">solving interesting and difficult problems</option>
-        </select>
-        <!-- </div> -->
-        <!-- <div class="row"> -->
-
-        <label for="where">where would you like to work? </label>
-        <select class="form-control" id="where">
-          <option value=""> --pick one-- </option>
-          <option value ="c">a megacorp, you want to be in with the big boys</option>
-          <option value ="b">a smaller tech company where you are part of the team</option>
-          <option val ="a">oh just wherever, you know...</option>
-        </select>
-        <!-- </div> -->
-        <!-- <div class="row"> -->
-        <label for="movies">which of these movies do you like most?</label>
-        <select class="form-control" id="movies">
-          <option value=""> --pick one-- </option>
-          <option value ="b">hackers</option>
-          <option value ="c">johnny mnemonic</option>
-          <option value ="a">the matrix</option>
-        </select>
-        <!-- </div> -->
-        <!-- <div class="row"> -->
-        <label for="runner">you are invited to a shadowrun game, these positions in the running team are unfilled, which do you choose to fill?</label>
-        <select class="form-control" id="runner">
-          <option value=""> --pick one-- </option>
-          <option value ="a">street samurai</option>
-          <option value ="c">decker</option>
-          <option value ="b">mage</option>
-        </select>
-        <!-- </div> -->
-        <!-- <div class="row"> -->
-        <label for="vintage">when did you first start actively using the internet?</label>
-        <select class="form-control" id="vintage">
-          <option value=""> --pick one-- </option>
-          <option value ="c">pre eternal september</option>
-          <option value ="b">pre mobile era</option>
-          <option value ="a">mobile era</option>
-        </select>
-        <!-- </div> -->
-        <!-- </div> -->
-      </div>
-
-        <button type="button" id="submit" class="btn btn-success">Find out what language you should learn!</button>
-        <div class="row">
+            <label for="where">where would you like to work? </label>
+            <select class="form-control" id="where">
+              <option value=""> --pick one-- </option>
+              <option value ="c">a megacorp, you want to be in with the big boys</option>
+              <option value ="b">a smaller tech company where you are part of the team</option>
+              <option val ="a">oh just wherever, you know...</option>
+            </select>
+            <!-- </div> -->
+            <!-- <div class="row"> -->
+            <label for="movies">which of these movies do you like most?</label>
+            <select class="form-control" id="movies">
+              <option value=""> --pick one-- </option>
+              <option value ="b">hackers</option>
+              <option value ="c">johnny mnemonic</option>
+              <option value ="a">the matrix</option>
+            </select>
+            <!-- </div> -->
+            <!-- <div class="row"> -->
+            <label for="runner">you are invited to a shadowrun game, these positions in the running team are unfilled, which do you choose to fill?</label>
+            <select class="form-control" id="runner">
+              <option value=""> --pick one-- </option>
+              <option value ="a">street samurai</option>
+              <option value ="c">decker</option>
+              <option value ="b">mage</option>
+            </select>
+            <!-- </div> -->
+            <!-- <div class="row"> -->
+            <label for="vintage">when did you first start actively using the internet?</label>
+            <select class="form-control" id="vintage">
+              <option value=""> --pick one-- </option>
+              <option value ="c">pre eternal september</option>
+              <option value ="b">pre mobile era</option>
+              <option value ="a">mobile era</option>
+            </select>
+            <!-- </div> -->
+            <!-- </div> -->
+          </div>
+          <div id = "btnRow" class="row">
+            <div class="col-xl-5">
+            </div>
+            <div class="col-xl-2">
 
 
-          <div id="result">
-            <div class="panel panel-info">
-              <div class="panel-heading">
+              <button type="button" id="submit" class="btn btn-success center-block">Find out what language you should learn!</button>
 
-                <h3 class="panel-title"><span class="lang"></span></h3>
-              </div>
-              <div class="panel-body">
+            </div>
+          </div>
+          <div class="row">
 
-                <p>Hello<span class="name"></span>, according to our exciting and extremely advanced scientific processes, we have determined from your survey responses that you should learn <span class="lang"></span>, <span class="lang"></span> is certainly without any doubt, the best language for you.</p>
 
+            <div id="result">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+
+                  <h3 class="panel-title"><span class="lang"></span></h3>
+                </div>
+                <div class="panel-body">
+
+                  <p>Hello<span class="name"></span>, according to our exciting and extremely advanced scientific processes, we have determined from your survey responses that you should learn <span class="lang"></span>, <span class="lang"></span> is certainly without any doubt, the best language for you.</p>
+
+                </div>
               </div>
             </div>
           </div>
-          </div>
-
         </div>
-
       </div>
-
     </body>
 </html>
