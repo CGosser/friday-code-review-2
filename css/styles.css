@@ -2,10 +2,12 @@
   display: none;
   margin-top: 10px;
 }
+
 .lang {
   font-weight: bold;
   font-style:italic;
 }
+
 .btn {
   padding: 6px;
   width:100%
@@ -14,22 +16,28 @@
   font-weight: bolder;
   font-size: 40;
 }
+
 .name {
   text-transform: capitalize;
 }
+
 #btnRow {
   align-items:center;
 }
+
 select {
   margin: 4px;
   /* padding-right: 10px; */
 }
+
 #formsbox {
   padding: 10px;
 }
+
 label {
   margin-top: 15px;
 }
+
 .bottomArea {
   margin-bottom: 150px;
 }

@@ -1,124 +1,100 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <meta charset="utf-8">
-  <title>which language should I learn?</title>
-</head>
-<body>
-  <div class="container">
-    <div class="jumbotron">
-
-      <h1>use this survey to figure out what programming language to learn!</h1>
-    </div>
-
-    <div class="row">
-      <div class="col-xl-2">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>which language should I learn?</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>use this survey to figure out what programming language to learn!</h1>
       </div>
-      <div id="forms">
-        <div class="col-xl-8" >
-          <div class="panel panel-default" id="formsbox">
-            <label for="name">what is your name?</label>
-            <input id="name" class="form-control" type="text">
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-
-            <label for="likes">what interests you about programming? </label>
-            <select class="form-control" id="likes">
-              <option value=""> --pick one-- </option>
-              <option value ="a">creating good looking websites that people will see every day</option>
-              <option value ="b">creating exciting and dynamic content for end users</option>
-              <option value ="c">solving interesting and difficult problems</option>
-            </select>
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-
-            <label for="where">where would you like to work? </label>
-            <select class="form-control" id="where">
-              <option value=""> --pick one-- </option>
-              <option value ="c">a megacorp, you want to be in with the big boys</option>
-              <option value ="b">a smaller tech company where you are part of the team</option>
-              <option val ="a">oh just wherever, you know...</option>
-            </select>
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <label for="movies">which of these movies do you like most?</label>
-            <select class="form-control" id="movies">
-              <option value=""> --pick one-- </option>
-              <option value ="b">hackers</option>
-              <option value ="c">johnny mnemonic</option>
-              <option value ="a">the matrix</option>
-            </select>
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <label for="runner">you are invited to a shadowrun game, these positions in the running team are unfilled, which do you choose to fill?</label>
-            <select class="form-control" id="runner">
-              <option value=""> --pick one-- </option>
-              <option value ="a">street samurai</option>
-              <option value ="c">decker</option>
-              <option value ="b">mage</option>
-            </select>
-
-            <label for="iceCream">what is your favorite flavour of icecream?</label>
-            <select class="form-control" id="iceCream">
-              <option value=""> --pick one-- </option>
-              <option value ="a">vanilla</option>
-              <option value ="b">chocolate</option>
-              <option value ="c">mint</option>
-            </select>
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <label for="vintage">when did you first start actively using the internet?</label>
-            <select class="form-control" id="vintage">
-              <option value=""> --pick one-- </option>
-              <option value ="c">you started actively using the internet before the start of the eternal september</option>
-              <option value ="b">in the pre mobile era</option>
-              <option value ="a">in the mobile era</option>
-            </select>
-            <label for="animal">Which of these animals do you like best?</label>
-            <select class="form-control" id="animal">
-              <option value=""> --pick one-- </option>
-              <option value ="a">dog</option>
-              <option value ="c">cat</option>
-              <option value ="b">iguana</option>
-            </select>
-            <!-- </div> -->
-            <!-- </div> -->
-          </div>
-          <div class= "bottomArea" id="bottomArea">
-
-          <div id = "btnRow" class="row">
-            <div class="col-xl-5">
+      <div class="row">
+        <div class="col-xl-2">
+        </div>
+        <div id="forms">
+          <div class="col-xl-8" >
+            <div class="panel panel-default" id="formsbox">
+              <label for="name">what is your name?</label>
+              <input id="name" class="form-control" type="text">
+              <label for="likes">what interests you about programming? </label>
+              <select class="form-control" id="likes">
+                <option value=""> --pick one-- </option>
+                <option value ="a">creating good looking websites that people will see every day</option>
+                <option value ="b">creating exciting and dynamic content for end users</option>
+                <option value ="c">solving interesting and difficult problems</option>
+              </select>
+              <label for="where">where would you like to work? </label>
+              <select class="form-control" id="where">
+                <option value=""> --pick one-- </option>
+                <option value ="c">a megacorp, you want to be in with the big boys</option>
+                <option value ="b">a smaller tech company where you are part of the team</option>
+                <option val ="a">oh just wherever, you know...</option>
+              </select>
+              <label for="movies">which of these movies do you like most?</label>
+              <select class="form-control" id="movies">
+                <option value=""> --pick one-- </option>
+                <option value ="b">hackers</option>
+                <option value ="c">johnny mnemonic</option>
+                <option value ="a">the matrix</option>
+              </select>
+              <label for="runner">you are invited to a shadowrun game, these positions in the running team are unfilled, which do you choose to fill?</label>
+              <select class="form-control" id="runner">
+                <option value=""> --pick one-- </option>
+                <option value ="a">street samurai</option>
+                <option value ="c">decker</option>
+                <option value ="b">mage</option>
+              </select>
+              <label for="iceCream">what is your favorite flavour of icecream?</label>
+              <select class="form-control" id="iceCream">
+                <option value=""> --pick one-- </option>
+                <option value ="a">vanilla</option>
+                <option value ="b">chocolate</option>
+                <option value ="c">mint</option>
+              </select>
+              <label for="vintage">when did you first start actively using the internet?</label>
+              <select class="form-control" id="vintage">
+                <option value=""> --pick one-- </option>
+                <option value ="c">you started actively using the internet before the start of the eternal september</option>
+                <option value ="b">in the pre mobile era</option>
+                <option value ="a">in the mobile era</option>
+              </select>
+              <label for="animal">Which of these animals do you like best?</label>
+              <select class="form-control" id="animal">
+                <option value=""> --pick one-- </option>
+                <option value ="a">dog</option>
+                <option value ="c">cat</option>
+                <option value ="b">iguana</option>
+              </select>
             </div>
-            <div class="col-xl-2">
-
-
-              <button type="button" id="submit" class="btn btn-success center-block">Find out what language you should learn!</button>
-
-            </div>
-          </div>
-          <div class="row">
-
-
-            <div id="result">
-              <div class="panel panel-info">
-                <div class="panel-heading">
-
-                  <h3 class="panel-title"><span class="lang"></span></h3>
+            <div class= "bottomArea" id="bottomArea">
+              <div id = "btnRow" class="row">
+                <div class="col-xl-5">
                 </div>
-                <div class="panel-body">
-
-                  <p><span class="name"></span> according to our exciting and extremely advanced scientific processes, we have determined from your survey responses that you should learn <span class="lang"></span>, <span class="lang"></span> is certainly, without any doubt, the best language for you. If you do not agree that <span class="lang"></span> is the best language for you, please reconsider your position.</p>
+                <div class="col-xl-2">
+                  <button type="button" id="submit" class="btn btn-success center-block">Find out what language you should learn!</button>
                 </div>
-
+              </div>
+              <div class="row">
+                <div id="result">
+                  <div class="panel panel-info">
+                    <div class="panel-heading">
+                      <h3 class="panel-title"><span class="lang"></span></h3>
+                    </div>
+                    <div class="panel-body">
+                      <p><span class="name"></span> according to our exciting and extremely advanced scientific processes, we have determined from your survey responses that you should learn <span class="lang"></span>, <span class="lang"></span> is certainly, without any doubt, the best language for you. If you do not agree that <span class="lang"></span> is the best language for you, please reconsider your position.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </body>
+    </div>
+  </body>
 </html>
